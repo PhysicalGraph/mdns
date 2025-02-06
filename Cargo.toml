@@ -34,9 +34,9 @@ async-stream = "0.3"
 async-trait = "0.1"
 bstr = "1.8"
 dns-parser = "0.8.0"
-thiserror = "1"
-futures-core = "0.3.1"
-futures-util = "0.3.1"
+thiserror = "2"
+futures-core = "0.3.31"
+futures-util = "0.3.31"
 log = "0.4"
 serde = { optional = true, version = "1", features = ["derive"] }
 socket2 = { version = "0.5", features = ["all"] }
@@ -46,8 +46,8 @@ tokio = { optional = true, version = "1.28", features = [
     "rt-multi-thread",
     "macros",
 ] }
-tokio-stream = { optional = true, version = "0.1.8", features = ["time"] }
-unicase = "2.6.0"
+tokio-stream = { optional = true, version = "0.1.17", features = ["time"] }
+unicase = "2.8.1"
 
 [dependencies.multicast-socket]
 optional = true
